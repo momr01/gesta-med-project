@@ -2,7 +2,7 @@ import { navMain } from "../styles";
 
 const Navbar = () => {
   return (
-    <nav className="w-[95%] mx-auto h-20">
+    <nav className="w-[95%] mx-auto h-20 font-lato">
       <ul className="flex justify-between h-full">
         <div className="flex my-auto">
           <div>
@@ -21,8 +21,8 @@ const Navbar = () => {
         <div className="my-auto">
           <li className="flex">
             <div className="text-end">
-              <p className="m-0 font-bold lg:text-lg text-xs">Bienvenido Dr. Gregory</p>
-              <p className="m-0 text-slate-400 lg:text-lg text-xs">Cardiólogo</p>
+              <p className="m-0 font-bold lg:text-base text-xs">Bienvenido Dr. Gregory</p>
+              <p className="m-0 text-letterSecondary lg:text-base text-xs font-normal">Cardiólogo</p>
             </div>
 
             <img src="./img/profile-doctor.svg" alt="profile" className="my-auto ml-3 lg:h-12 h-7" />

@@ -7,9 +7,11 @@ module.exports = {
         //primary: "#002140",
         primary: "#CAE1F9",
         secondary: "#1D5CFF",
+        letterSecondary: "#97989D",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        lato: ["Roboto Flex", "sans-serif"],
       },
     },
     screens: {

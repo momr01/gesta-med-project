@@ -2,7 +2,7 @@ import { pacienteData } from "../styles";
 
 const InformacionGralPaciente = () => {
   return (
-    <div className="text-sm">
+    <div className="font-lato pl-7">
       <div>
         <Paciente />
       </div>
@@ -21,8 +21,7 @@ const InformacionGralPaciente = () => {
 const Paciente = () => {
   return (
     <>
-      <h2 className="font-bold mb-0 lg:text-base text-xs">Paciente</h2>
-      <hr className="mb-4" />
+      <h2 className="font-bold text-base border-b-2 w-[95%] mb-3 mt-6 border-b-slate-300">Paciente</h2>
       <div className="flex">
         <div className={pacienteData.div}>
           <p className={pacienteData.label}>Nombre (s):</p>
@@ -41,7 +40,7 @@ const Paciente = () => {
           <p className={pacienteData.data}>Masculino</p>
         </div>
       </div>
-      <div className="flex mt-5">
+      <div className="flex mt-3">
         <div className={pacienteData.div}>
           <p className={pacienteData.label}>Fecha de nacimiento</p>
           <p className={pacienteData.data}>20/Noviembre/1989</p>
@@ -62,8 +61,7 @@ const Paciente = () => {
 const Direccion = () => {
   return (
     <>
-      <h2 className="font-bold mb-0 lg:text-base text-xs">Dirección</h2>
-      <hr className="mb-4" />
+      <h2 className="font-bold lg:text-base text-xs border-b-2 w-[95%] mb-3 border-b-slate-300">Dirección</h2>
       <div className="flex">
         <div className={pacienteData.div}>
           <p className={pacienteData.label}>Calle</p>
@@ -95,8 +93,7 @@ const Direccion = () => {
 const UltimaVisita = () => {
   return (
     <>
-      <h2 className="font-bold mb-0 lg:text-base text-xs">Última visita</h2>
-      <hr className="mb-4" />
+      <h2 className="font-bold lg:text-base text-xs border-b-2 w-[95%] mb-3 border-b-slate-300">Última visita</h2>
       <div className="flex">
         <div className={pacienteData.div}>
           <p className={pacienteData.label}>Ingreso</p>
@@ -105,7 +102,7 @@ const UltimaVisita = () => {
           </p>
         </div>
       </div>
-      <div className="flex mt-5">
+      <div className="flex mt-3">
         <div className={pacienteData.div}>
           <p className={pacienteData.label}>Clase episodio</p>
           <p className={pacienteData.data}>Hospitalizado</p>

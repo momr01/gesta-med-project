@@ -1,8 +1,6 @@
-import { FilterOutlined, SearchOutlined } from "@ant-design/icons";
-
 const FormBuscarPaciente = () => {
   return (
-    <div className="border-2 rounded-md p-2 flex">
+    <div className="border-2 rounded-xl p-3 flex font-lato">
       <img src="./img/search-icon.svg" alt="search-icon" className="w-4"  />
       <input
         type="text"

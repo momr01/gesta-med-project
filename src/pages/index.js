@@ -1,1 +1,1 @@
-export { default as Doctor } from "./Doctor.jsx";
+export { default as DoctorPage } from "./DoctorPage.jsx";

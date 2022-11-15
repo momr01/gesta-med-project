@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import { Doctor } from "../pages";
+import { DoctorPage } from "../pages";
 
 const AppRouter = () => (
   <>
     <Routes>
-      <Route path="/" element={<Doctor />}></Route>
+      <Route path="/" element={<DoctorPage />}></Route>
     </Routes>
   </>
 );
