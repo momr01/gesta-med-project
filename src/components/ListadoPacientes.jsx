@@ -3,23 +3,23 @@ import { RightOutlined } from "@ant-design/icons";
 
 const ListadoPacientes = () => {
   return (
-    <div className="h-[85%]">
+    <div className="h-[80%] lg:h-auto">
       {pacientesList.map((paciente) => (
         <button className="w-full" key={paciente.id}>
           <div className="flex justify-between py-4 hover:bg-primary">
-            <div className="w-[80%] mx-auto flex justify-between">
+            <div className="lg:w-[80%] w-[90%] mx-auto flex justify-between">
               <div className="flex">
-                <div className="mr-2">
-                  <img src={`${paciente.img_url}`} alt="img-profile" />
+                <div className="lg:mr-2 mr-1">
+                  <img src={`${paciente.img_url}`} alt="img-profile" className="w-12" />
                 </div>
 
                 <div>
-                  <span className="font-bold mr-2">{paciente.nombre}</span>
-                  <span className="text-[10px] px-1 rounded-md bg-primary">
+                  <span className="font-bold xl:mr-2 mr-1 lg:text-base text-xs">{paciente.nombre}</span>
+                  <span className="lg:text-[10px] text-[8px] px-[0.4rem] py-[0.2rem] rounded-md bg-primary text-secondary font-semibold">
                     {paciente.clase_episodio}
                   </span>
                   <br />
-                  <p className="text-[10px] text-start mb-0">
+                  <p className="lg:text-[10px] text-[8px] text-start mb-0">
                     {`No. paciente: ${paciente.nro_paciente}`}
                   </p>
                 </div>

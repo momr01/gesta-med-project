@@ -21,7 +21,7 @@ const InformacionGralPaciente = () => {
 const Paciente = () => {
   return (
     <>
-      <h2 className="font-bold mb-0">Paciente</h2>
+      <h2 className="font-bold mb-0 lg:text-base text-xs">Paciente</h2>
       <hr className="mb-4" />
       <div className="flex">
         <div className={pacienteData.div}>
@@ -62,7 +62,7 @@ const Paciente = () => {
 const Direccion = () => {
   return (
     <>
-      <h2 className="font-bold mb-0">Dirección</h2>
+      <h2 className="font-bold mb-0 lg:text-base text-xs">Dirección</h2>
       <hr className="mb-4" />
       <div className="flex">
         <div className={pacienteData.div}>
@@ -95,7 +95,7 @@ const Direccion = () => {
 const UltimaVisita = () => {
   return (
     <>
-      <h2 className="font-bold mb-0">Última visita</h2>
+      <h2 className="font-bold mb-0 lg:text-base text-xs">Última visita</h2>
       <hr className="mb-4" />
       <div className="flex">
         <div className={pacienteData.div}>
